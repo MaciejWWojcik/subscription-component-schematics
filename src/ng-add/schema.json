@@ -1,14 +1,14 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "id": "CustomSchematics",
+  "id": "SubscriptionComponentSchematicsNgAdd",
   "title": "Custom library for extending Angular Schematics",
   "type": "object",
   "properties": {
     "defaultCollection": {
       "type": "boolean",
       "default": true,
-      "description": "Use custom-schematics as the default collection",
-      "x-prompt": "Do you want to use custom-schematics as the default collection?",
+      "description": "Use subscription-component-schematics as the default collection",
+      "x-prompt": "Do you want to use subscription-component-schematics as the default collection?",
       "alias": "d"
     }
   },

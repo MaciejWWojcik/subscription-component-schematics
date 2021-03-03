@@ -30,7 +30,7 @@ function updateWorkspaceCli(host: Tree, value: any) {
 
 function setAsDefaultSchematics() {
     const cli = {
-        defaultCollection: 'custom-component',
+        defaultCollection: 'subscription-component-schematics',
     };
     return (host: Tree) => {
         updateWorkspaceCli(host, cli);
