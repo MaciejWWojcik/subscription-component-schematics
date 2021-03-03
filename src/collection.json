@@ -1,0 +1,21 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "extends": [
+    "@schematics/angular"
+  ],
+  "schematics": {
+    "ng-add": {
+      "description": "Add schematics to the project.",
+      "factory": "./ng-add/index#ngAdd",
+      "schema": "./ng-add/schema.json"
+    },
+    "component": {
+      "aliases": [
+        "c"
+      ],
+      "description": "A schematic for generating component, with optional rxjs Subscription management",
+      "factory": "./subscription-component/index#subscriptionComponent",
+      "schema": "./subscription-component/schema.json"
+    }
+  }
+}
