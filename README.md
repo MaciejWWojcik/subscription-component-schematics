@@ -1,6 +1,6 @@
 # Subscription Component Schematics
 
-Example schematics created for the purpose of this article...
+Example schematics created for the purpose of this article https://indepth.dev/posts/1438/extend-angular-schematics-to-customize-your-development-process
 
 ### Use it in your project:
 
