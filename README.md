@@ -7,6 +7,7 @@ Example schematics created for the purpose of this article https://indepth.dev/p
 First things first, you will need to build schematics:
 
 ```bash
+npm install
 npm run build
 ```
 
